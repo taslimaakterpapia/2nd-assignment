@@ -1,0 +1,111 @@
+/*----------------------------- nav style------------------------------- */
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-bar1 {
+
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+
+    text-align: center;
+
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 50px;
+
+
+    height: 53px;
+    margin-bottom: 0;
+}
+
+
+.menu-bar {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    width: 477px;
+    height: 26px;
+    font-family: 'Work Sans', sans-serif;
+
+    text-align: center;
+    gap: 50px;
+    margin-top: 63px;
+    
+
+
+}
+
+/* .hr {
+
+   
+    background: rgba(255, 144, 14, 0.1);
+        margin-top: 50px;
+        margin-bottom: 0;
+
+} */
+
+/*----------------- main part/1st info---------------------  */
+
+
+.first-info {
+
+    text-align: center;
+    margin-top: 102px;
+
+
+
+}
+
+.first-title {
+
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Work Sans';
+    margin-bottom: 0;
+
+
+}
+
+.first-description {
+
+    color: #727272;
+
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+
+.button1 {
+
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 32px;
+
+
+
+}
+
+.img1{
+
+margin-top: 50px;
+size: 50%;
+
+background: url(group-three-modern-architects.jpg);
+border-radius: 8px;
+
+}
