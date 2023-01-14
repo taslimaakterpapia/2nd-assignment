@@ -100,12 +100,19 @@
 
 }
 
-.img1{
-
+.image1{
 margin-top: 50px;
-size: 50%;
 
-background: url(group-three-modern-architects.jpg);
-border-radius: 8px;
+
+
+}
+
+.image4{
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+
+
 
 }
