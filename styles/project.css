@@ -4,7 +4,7 @@
 
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
+
 
 }
 
@@ -18,7 +18,7 @@
     text-align: center;
 
     font-family: 'Work Sans', sans-serif;
-    margin-left: 50px;
+    margin-left:50px;
 
 
     height: 53px;
@@ -36,8 +36,11 @@
     font-family: 'Work Sans', sans-serif;
 
     text-align: center;
-    gap: 50px;
+    gap: 30px;
     margin-top: 63px;
+    margin-left: 600px;
+
+
 
 
 
@@ -105,7 +108,17 @@
 
 .image1 {
     margin-top: 50px;
-    width: 100%;
+
+    width: 90vw;
+    overflow-x: hidden;
+    padding: 0.8em 0;
+
+    margin-left: 50px;
+
+
+
+
+
 
 
 
@@ -115,21 +128,25 @@
 .image4 {
 
     display: flex;
-    gap: 24px;
+    gap: 10px;
     margin-top: 130px;
-    margin-left: 301px;
+    margin-left: 70px;
+
+    width: 50vw;
+    overflow-x: hidden;
+    padding: 0.8em 0;
 
 }
 
 .minibabu {
 
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 
 }
 
 .minibabu2 {
 
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 .pic-sideinfo {
@@ -140,8 +157,9 @@
 
 .side-info {
 
-    margin-top: 270px;
-    margin-left: 73px;
+    margin-top: 300px;
+    margin-left: 40px;
+
 
 
 
@@ -153,6 +171,7 @@
     font-size: 45px;
     color: #727272;
     font-family: 'Work Sans';
+    margin-bottom: 10px;
 
 }
 
@@ -176,6 +195,7 @@
     font-weight: 400;
     font-size: 16px;
     font-family: 'Work Sans';
+    margin-bottom: 10px;
 }
 
 
@@ -183,8 +203,8 @@
 /* <!----------------- Features you will love & enjoy------------------------------> */
 .big-part {
 
-    margin-left: 301px;
-    margin-top: 169px;
+    margin-left: 100px;
+    margin-top: 150px;
 }
 
 
@@ -262,8 +282,11 @@
 
 .big-img {
 
-    margin-top: 132px;
-    margin-left: 146px;
+    margin-top: 140px;
+    margin-left: 40px;
+    width: 90vw;
+    overflow-x: hidden;
+    padding: 0.8em 0;
 }
 
 
@@ -271,17 +294,17 @@
 
     background: #FF900E;
     border-radius: 8px;
-    width: 342px;
-    height: 200px;
+    width: 270px;
+    height: 170px;
     border: none;
 
     font-weight: 700;
-    font-size: 65px;
+    font-size: 45px;
     color: #FFFFFF;
     text-align: center;
     font-family: 'Work Sans';
 
-    line-height: 40px;
+    line-height: 30px;
 
 
 
@@ -299,8 +322,8 @@
 
 .button3 {
     position: absolute;
-    top: 3080px;
-    left: 940px;
+    top: 3150px;
+    left: 500px;
 
 }
 
@@ -323,7 +346,7 @@
 
     margin-top: 230px;
 
-    margin-left: 250px;
+    margin-left: 80px;
 }
 
 
@@ -335,12 +358,12 @@
 
 
 
-    line-height: 10px;
+    line-height: 5px;
 
-    margin-left: 230px;
+    margin-left: 150px;
     display: flex;
 
-    gap: 125px;
+    gap: 80px;
     align-items: center;
 
 
@@ -348,8 +371,8 @@
 
 }
 
-.container img{
-    margin-top: 40px;
+.container img {
+    margin-top: 25px;
 }
 
 .row1,
@@ -360,11 +383,11 @@
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
-    width: 241.83px;
-    height: 241.83px;
+    width: 200px;
+    height: 200px;
 
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 0px;
 
 }
 
@@ -449,8 +472,8 @@
 
     display: flex;
     margin-top: 50px;
-    gap: 156px;
-    margin-left: 250px;
+    gap: 50px;
+    margin-left: 150px;
 
     mix-blend-mode: luminosity;
     width: 181.67px;
@@ -466,8 +489,8 @@
     background: #FFF4E7;
     border-radius: 8px;
 
-    
-   
+
+
 
 
 
@@ -487,25 +510,35 @@
 /* -----------------------------------@media____________________________________________ */
 
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 640px) {
+
+    body,
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+
+    }
+
     .header {
 
-     
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-   margin-left: 0;
-    
-    }
-    .menu-bar{
 
-       flex-direction: column;
-      margin-left: 0;
-      margin-right: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+
     }
 
+    .menu-bar {
+
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 
-   
+
+
 
 
     .first-info {
@@ -513,268 +546,251 @@
         text-align: center;
         flex-direction: column;
         margin-top: 250px;
-    
-    
-    
+
+
+
     }
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
     .image1 {
-        
-        width:100%;
-    
-    
-    
-    
-    }
-    
-    .image4 {
-    
+
         width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 0;
 
 
-}
-    
-    
-    
-    .pic-sideinfo {
-    
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
-       margin-left: 0;
-    
+
+
     }
-    
+
+    .image4 {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+
+
+    }
+
+
+
+    .pic-sideinfo {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+
+    }
+
     .side-info {
-    
+
         margin-top: 0px;
         margin-left: 0px;
-    
-    
-    
+
+
+
     }
-    
+
     .side-info-title {
-    
+
         font-weight: 500;
         font-size: 45px;
         color: #727272;
         font-family: 'Work Sans';
-    
+
     }
-    
+
     .of-our {
         color: #131313;
         font-weight: 700;
         font-size: 45px;
-    
+
     }
-    
+
     .features {
-    
+
         font-weight: 700;
         font-size: 45px;
         color: #FF900E;
     }
-    
+
     .side-info-description {
-    
+
         color: #727272;
         font-weight: 400;
         font-size: 16px;
         font-family: 'Work Sans';
     }
-    
-    
-    
+
+
+
     /* <!----------------- Features you will love & enjoy------------------------------> */
     .big-part {
-    
+
         margin-left: 0px;
         margin-top: 0px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 40px;
     }
-    
-    
-    
+
+
+
     .title-1 {
-       margin-top: 20px;
-    
+        margin-top: 20px;
+
     }
-    
+
     .description1 {
-    
+
         font-weight: 400;
         font-size: 16px;
         color: #727272;
         margin-top: 0;
         font-family: 'Work Sans';
         margin-bottom: 0px;
-    
+
     }
-    
+
     .title-2,
     .title-3,
     .title-4,
     .title-5 {
-    
-    
-       
-    
+
+
+
+
         line-height: 30px;
-    
-    
-    
+
+
+
     }
-    
+
     .description2,
     .description3,
     .description4,
     .description5 {
 
         margin-bottom: 20px;
-    
-    
-    
+
+
+
     }
-    
-    
+
+
     .main-part {
-    
+
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 0;
         margin-top: 0;
-    
+
     }
-    
+
     .big-img {
-    
+
         margin-top: 0px;
         margin-left: 0px;
         max-width: 100%;
-        
-       
+
+
     }
-    
-    
+
+
     .button-part {
-    margin-top: 0;
-    margin-left: 0;
-    
-    
-    
+        margin-top: 0;
+        margin-left: 0;
+
+
+
     }
-    
-    
-   
+
+
+
     .button3 {
-       
+
         top: 5200px;
         left: 0px;
         width: 0px;
         height: 0px;
 
-     
-      
-    
-    }
-    
-    
-    
-    .title-6 {
-    
-       margin-left: 0px;
 
-    
-    
-    
+
+
     }
-    
+
+
+
+    .title-6 {
+
+        margin-left: 0px;
+
+
+
+
+    }
+
     .Some-Facts {
-    
+
         margin-top: 0px;
-    
+
         margin-left: 0px;
     }
-    
-    
-    
+
+
+
     /* border bos 4 */
-    
+
     .container {
-    
-    
-    
-    gap: 0;
-       
-    
+
+
+
+        gap: 0;
+
+
         margin-left: 30px;
-       margin-bottom: 100px;
-    
-      display: grid;
-      grid-template-columns: repeat(1, 1fr)
-      
-      
-     
-     
+        margin-bottom: 100px;
 
-
-      
-    
-    
-    
-    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)
     }
-    
-    
-   
-    
+
+
+
+
     /* -------------------------low part--------------------------- */
-    
-    
+
+
     .last-part {
         text-align: center;
-        margin-top:30px;
+        margin-top: 30px;
         margin-bottom: 50px;
-    
+
     }
-    
-    
+
+
     /* --------------------------logo-------------------- */
-    
+
     .logo {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 110px;
-    gap: 15px;
-    margin-bottom: 350px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 110px;
+        gap: 15px;
+        margin-bottom: 350px;
 
-    
+
     }
-    
+
     .footer {
-       
 
-     margin-top:1500;
-     margin-bottom: 500px;
-    
-    }  
-       
-    
-    
-    
-      
-    
+
+        margin-top: 1500;
+        margin-bottom: 500px;
+
+    }
 
 
 
@@ -784,6 +800,10 @@
 
 
 
-  }
 
- 
+
+
+
+
+
+}
