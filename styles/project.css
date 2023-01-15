@@ -4,8 +4,10 @@
 
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
 
 }
+
 
 .menu-bar1 {
 
@@ -57,6 +59,7 @@
 
     text-align: center;
     margin-top: 102px;
+    
 
 
 
@@ -109,10 +112,137 @@ margin-top: 50px;
 
 .image4{
 
-display: grid;
-grid-template-columns: repeat(2, 1fr);
+display: flex;
+gap: 24px ;
+margin-top: 130px;
+margin-left: 301px;
+
+}
+
+.minibabu {
+    
+margin-bottom: 24px;
+    
+}
+.minibabu2{
+
+    margin-bottom: 24px;
+}
+
+.pic-sideinfo{
+
+    display: flex;
+   
+}
+
+.side-info{
+
+    margin-top: 270px;
+    margin-left: 73px;
+   
+
+  
+}
+
+.side-info-title{
+
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    font-family: 'Work Sans';
+  
+}
+
+.of-our{
+    color: #131313;
+    font-weight: 700;
+font-size: 45px;
+    
+}
+
+.features{
+
+    font-weight: 700;
+font-size: 45px;
+color: #FF900E;
+}
+
+.side-info-description{
+
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+font-family: 'Work Sans';
+}
+
+
+
+/* <!----------------- Features you will love & enjoy------------------------------> */
+.big-part{
+
+    margin-left: 301px;
+    margin-top: 169px;
+}
+
+
+
+.title-1{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+font-family: 'Work Sans';
+border-left: 5px solid #FF900E;
+;
+
+padding-left: 50px;
+
+}
+
+.description1{
+
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-top: 0;
+font-family: 'Work Sans';
+margin-bottom: 60px;
+
+}
+
+.title-2, .title-3, .title-4, .title-5{
+
+
+    color: #131313;
+    font-weight: 600;
+font-size: 20px;
+font-family: 'Work Sans';
+
 
 
 
 
 }
+
+.description2, .description3, .description4, .description5{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    font-family: 'Work Sans';
+    margin-bottom: 60px;
+    
+   
+
+}
+
+
+
+
+
+
+
+   
+
+
+
+
