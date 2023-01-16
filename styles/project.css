@@ -510,7 +510,7 @@
 /* -----------------------------------@media____________________________________________ */
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 576px) {
 
     body,
     html {
@@ -529,12 +529,22 @@
 
     }
 
-    .menu-bar {
-
-        flex-direction: column;
+    .menu-bar1{
+        width: 90vw;
         margin-left: 0;
-        margin-right: 0;
+        
     }
+
+    .menu-bar {
+        
+        position: absolute;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 0;
+        width: 90vw;
+        margin-top: 130px;
+        
+            }
 
 
 
@@ -545,7 +555,7 @@
 
         text-align: center;
         flex-direction: column;
-        margin-top: 250px;
+        margin-top: 300px;
 
 
 
@@ -558,9 +568,12 @@
 
     .image1 {
 
-        width: 100%;
+        width: fit-content;
+        height: fit-content;
+        background-size: cover;
+ background-attachment: fixed;
 
-
+overflow: hidden;
 
 
     }
@@ -570,7 +583,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 0;
+        margin-left: 25px;
 
 
     }
@@ -581,7 +594,7 @@
 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 0;
+        margin-left: 10px;
 
     }
 
@@ -654,7 +667,11 @@
         margin-bottom: 0px;
 
     }
+.image4{
 
+
+    margin-left: 20px;
+}
     .title-2,
     .title-3,
     .title-4,
@@ -695,7 +712,7 @@
         margin-top: 0px;
         margin-left: 0px;
         max-width: 100%;
-
+       
 
     }
 
@@ -712,8 +729,8 @@
 
     .button3 {
 
-        top: 5200px;
-        left: 0px;
+        top: 5630px;
+        left: 10px;
         width: 0px;
         height: 0px;
 
@@ -735,7 +752,7 @@
 
     .Some-Facts {
 
-        margin-top: 0px;
+        margin-top: 300px;
 
         margin-left: 0px;
     }
@@ -750,8 +767,8 @@
 
         gap: 0;
 
-
-        margin-left: 30px;
+margin-top: 80px;
+        margin-left: 100px;
         margin-bottom: 100px;
 
         display: grid;
@@ -777,7 +794,7 @@
     .logo {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 110px;
+        margin-left: 120px;
         gap: 15px;
         margin-bottom: 350px;
 
